@@ -1,0 +1,17 @@
+#header{
+    padding: 24px 0;
+    border-bottom: 1px #ccc solid;
+}
+
+.btn-orange{
+    background-color: #ff5733;
+    color: white;
+    display: block;
+    width: 140px;
+}
+
+#carousel, #carousel img{
+    height: 500px;
+    background-size: contain  ;
+    object-fit: cover;
+}
