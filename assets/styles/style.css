@@ -1,17 +1,39 @@
-#header{
-    padding: 24px 0;
-    border-bottom: 1px #ccc solid;
+#header {
+  padding: 24px 0;
+  border-bottom: 1px #ccc solid;
 }
 
-.btn-orange{
-    background-color: #ff5733;
-    color: white;
-    display: block;
-    width: 140px;
+.btn-orange {
+  background-color: #ff5733;
+  color: white;
+  display: block;
+  width: 140px;
 }
 
-#carousel, #carousel img{
-    height: 500px;
-    background-size: contain  ;
-    object-fit: cover;
+.btn-orange:hover {
+  background-color: #ff5733;
+  text-decoration: none;
+}
+
+#carousel,
+#carousel img {
+  height: 500px;
+  background-size: contain;
+  object-fit: cover;
+}
+
+.color-orange {
+  color: #ff5733;
+}
+
+.color-white {
+  color: white;
+}
+
+.about-list {
+  list-style: none;
+}
+
+.decoration-none {
+  text-decoration: none;
 }
