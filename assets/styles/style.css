@@ -90,3 +90,100 @@
   letter-spacing: 1px;
   margin: 0;
 }
+
+.services-section {
+  padding: 100px 0;
+}
+
+.services-section .section-title {
+  position: relative;
+  font-size: 14px;
+  color: #ff5733;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  display: inline-block;
+  padding-right: 60px;
+}
+
+.services-section .section-title::before {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background-color: #ff5733;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.services-section h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1a3c5e;
+  margin-bottom: 40px;
+}
+
+.services-section .service-box {
+  background-color: #fff;
+  padding: 30px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.services-section .service-box:hover {
+  background-color: #ff5733;
+}
+
+.services-section .service-box:hover h3,
+.services-section .service-box:hover p {
+  color: #fff;
+}
+
+.services-section .service-box .icon {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+  font-size: 24px;
+  color: #fff;
+  background-color: #ff5733;
+  border-radius: 5px;
+  position: relative;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+  box-shadow: -7px -6px 0 1px rgba(255, 87, 51, 0.3);
+}
+
+.services-section .service-box:hover .icon {
+  background-color: #fff;
+  color: #ff5733;
+}
+
+.services-section .service-box .icon::before {
+  display: none;
+}
+
+.services-section .service-box .icon i {
+  font-size: 24px;
+}
+
+.services-section .service-box h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1a3c5e;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.services-section .service-box p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+}
